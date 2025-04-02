@@ -19,25 +19,26 @@ import {
   IoSettingsOutline,
 } from "solid-icons/io";
 import { TbCategory2, TbFolder, TbUsers } from "solid-icons/tb";
+import { ar } from "~/lib/languages/ar";
 
 const items = [
   {
-    title: "Users",
+    title: ar.users,
     url: "/admin/users",
     icon: TbUsers,
   },
   {
-    title: "Categories",
+    title: ar.categories,
     url: "/admin/categories",
     icon: TbCategory2,
   },
   {
-    title: "Forums",
+    title: ar.forums,
     url: "/admin/forums",
     icon: TbFolder,
   },
   {
-    title: "Settings",
+    title: ar.settings,
     url: "#",
     icon: IoSettingsOutline,
   },
@@ -50,7 +51,7 @@ export function AppSidebar() {
         <SidebarGroup>
           <SidebarGroupLabel class="flex items-center gap-2">
             <IoDiamondOutline />
-            <span>Admin Control Panel</span>
+            <span>{ar.adminControlPanel}</span>
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>

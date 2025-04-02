@@ -1,9 +1,13 @@
+import Footer from "~/components/Footer";
+import Header from "~/components/Header";
+
 const FrontendLayout = (props: { children: ChildNode }) => {
   return (
-    <div>
-      <span>frontend layout :</span>
-      {props.children}
-    </div>
+    <section class="container flex flex-col min-h-dvh">
+      <Header />
+      <main class="flex-1">{props.children}</main>
+      <Footer />
+    </section>
   );
 };
 
