@@ -1,6 +1,14 @@
+@import "@fontsource/almarai";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*,
+html,
+body {
+  font-family: "Almarai", sans-serif;
+}
 
 @layer base {
   :root {

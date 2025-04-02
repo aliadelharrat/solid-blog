@@ -6,9 +6,6 @@ import { Suspense } from "solid-js";
 // Tailwindcss
 import "~/styles/global.css";
 
-// Main font
-import "@fontsource/inter";
-
 export default function App() {
   return (
     <Router

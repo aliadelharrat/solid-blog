@@ -9,10 +9,10 @@ const Header = () => {
   ];
   return (
     <header>
-      <div class="space-y-2 border-b py-5 mb-5">
+      <A href="/" class="space-y-2 block border-b py-5 mb-5">
         <h1 class="text-2xl font-bold">منتديات الأمل</h1>
         <p class="text-sm text-zinc-500">مجتمع نشط لمشاركة و نقاش الأفكار</p>
-      </div>
+      </A>
     </header>
   );
 };

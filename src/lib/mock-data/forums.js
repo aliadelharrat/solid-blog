@@ -1,4 +1,4 @@
-export const mock_data = [
+export const categories = [
   {
     id: 1,
     name: "التكنولوجيا",
@@ -122,5 +122,92 @@ export const mock_data = [
         },
       },
     ],
+  },
+];
+
+export const topics = [
+  {
+    id: 1,
+    title: "How to Master JavaScript in 30 Days",
+    author: {
+      name: "ItsAdel",
+      date: "5 min ago",
+    },
+    replies: 2,
+    views: 45,
+    last_reply: {
+      by: "Admin",
+      date: "3 seconds ago",
+    },
+  },
+  {
+    id: 2,
+    title: "Best Practices for React Performance Optimization",
+    author: {
+      name: "CodeGuru",
+      date: "12 min ago",
+    },
+    replies: 15,
+    views: 230,
+    last_reply: {
+      by: "ReactFan",
+      date: "8 min ago",
+    },
+  },
+  {
+    id: 3,
+    title: "Why GraphQL is Better than REST API?",
+    author: {
+      name: "TechExplorer",
+      date: "2 hours ago",
+    },
+    replies: 7,
+    views: 150,
+    last_reply: {
+      by: "BackendDev",
+      date: "45 min ago",
+    },
+  },
+  {
+    id: 4,
+    title: "Introduction to Machine Learning with Python",
+    author: {
+      name: "DataWizard",
+      date: "1 day ago",
+    },
+    replies: 22,
+    views: 300,
+    last_reply: {
+      by: "AIEnthusiast",
+      date: "2 hours ago",
+    },
+  },
+  {
+    id: 5,
+    title: "Top 10 VS Code Extensions for Developers",
+    author: {
+      name: "DevToolsPro",
+      date: "3 days ago",
+    },
+    replies: 50,
+    views: 750,
+    last_reply: {
+      by: "FrontendNinja",
+      date: "1 day ago",
+    },
+  },
+  {
+    id: 6,
+    title: "Understanding Docker for Beginners",
+    author: {
+      name: "CloudMaster",
+      date: "5 days ago",
+    },
+    replies: 10,
+    views: 120,
+    last_reply: {
+      by: "DevOpsGuy",
+      date: "2 days ago",
+    },
   },
 ];
