@@ -1,14 +1,9 @@
-type ModeratorsProps = {
-  moderators: string[];
-};
+import { For } from "solid-js";
 
-const Moderators = (props: ModeratorsProps) => {
-  const { moderators } = props;
+const Moderators = ({ moderators }: { moderators: string[] }) => {
   return (
     <p class="col-span-3 gap-2">
-      {moderators.map((mod) => (
-        <span>{mod}</span>
-      ))}
+      <For each={moderators}>{(mod) => <span>{mod}</span>}</For>
     </p>
   );
 };

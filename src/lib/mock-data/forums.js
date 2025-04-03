@@ -210,4 +210,18 @@ export const topics = [
       date: "2 days ago",
     },
   },
+  {
+    id: 7,
+    title: "Loaded from the server",
+    author: {
+      name: "CloudMaster",
+      date: "5 days ago",
+    },
+    replies: 10,
+    views: 120,
+    last_reply: {
+      by: "DevOpsGuy",
+      date: "2 days ago",
+    },
+  },
 ];
